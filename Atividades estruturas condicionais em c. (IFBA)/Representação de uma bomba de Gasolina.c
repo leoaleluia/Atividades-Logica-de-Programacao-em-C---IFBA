@@ -12,12 +12,10 @@ int main(){
 	if (c[0] == 'a') {
 		printf("Qunatos litros? A-alcool R$ 1.90 por litro");
 		scanf("%f", &litros);
-		printf("%f litros\n", litros);
 		if (litros <= 25.0){
 			descLt = 1.90 - (1.90 * 0.02); 
 			descLT2 = 19.0 * 0.02;
 			descFinal = descLt * litros;
-			printf("%f ifnal", descFinal);
 		}else {
 			descLt = 1.90 - (1.90 * 0.04);
 			descLT2 = 1.90 * 0.04;

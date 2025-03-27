@@ -1,8 +1,10 @@
+//Escreva um programe que indique o dia do mês de acordo com o número digitado
+
 #include <stdio.h>
 
 int main(){
 	int n1 = 0;
-	printf("Digite o número representante do mÇes: ");
+	printf("Digite o número representante do mês: ");
 	scanf("%i", &n1);
 	
 	switch(n1) {

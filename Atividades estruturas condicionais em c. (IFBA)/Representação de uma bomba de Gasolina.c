@@ -1,3 +1,10 @@
+/* Alcool ate 25 Litros, desconto de 2%. Acima de 25 Litros, desconto de 4%
+Gasolina ate 25 Litros, desconto de 3%. Acim de 25 Litros, desconto de 5%
+Escreva um algoritmo que leia o número de litros vendidos e o tipo de combustível 
+(codificado da seguinte forma: A-álcool, G-gasolina), calcule e imprima o valor a ser 
+pago pelo cliente sabendo-se  que o preço do litro da gasolina é R$ 2,70 e o preço do litro 
+do álcool é R$ 1,90.*/
+
 #include <stdio.h>
 
 int main(){
